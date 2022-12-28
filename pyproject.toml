@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "optimizedmovingaverages"
+version = "0.1.0"
+description = "Automatically backtest moving average crossovers and return the most successful ones"
+authors = ["danielarcher-dev <daniel.archer.dev@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+numpy = "^1.24.1"
+yfinance = "^0.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
